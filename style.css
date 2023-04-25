@@ -1,0 +1,56 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .spoken-text-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .spoken-text {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .output {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f2f2f2;
+    width: 400px;
+    height: 100px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+  }
+  
+  .result {
+    font-size: 48px;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+  }
+  
+  .speak-btn {
+    background-color: #333;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .speak-btn:hover {
+    background-color: #444;
+  }
+  
